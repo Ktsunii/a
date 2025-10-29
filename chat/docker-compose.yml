@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  antidote:
+    image: andreiz/antidote:latest
+    container_name: antidote
+    ports:
+      - "8087:8087"   # protobuf client port (se cliente JS usa esse)
+      - "4369:4369"   # epmd (Erlang)
+      - "8087:8087/udp"
+    volumes:
+      - ./data/antidote:/var/lib/antidote
+    restart: unless-stopped

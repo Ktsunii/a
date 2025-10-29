@@ -1,0 +1,30 @@
+{
+  "geral": [
+    {
+      "id": "5218bd4d-ac46-4763-936c-d93cbf62d24e",
+      "author": "icaro",
+      "text": "123a",
+      "ts": 1761597771641,
+      "timestamp": 1761597771641,
+      "file_bucket": null,
+      "file_object": null,
+      "file_name": null,
+      "file_mime": null,
+      "file_size": null,
+      "room": "geral"
+    },
+    {
+      "id": "e27c558b-805d-49a5-a0c0-537bde114b4d",
+      "author": "icaro",
+      "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "ts": 1761748759887,
+      "timestamp": 1761748759887,
+      "file_bucket": null,
+      "file_object": null,
+      "file_name": null,
+      "file_mime": null,
+      "file_size": null,
+      "room": "geral"
+    }
+  ]
+}
