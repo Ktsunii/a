@@ -1,0 +1,43 @@
+{
+  "geral": [
+    {
+      "id": "5218bd4d-ac46-4763-936c-d93cbf62d24e",
+      "author": "icaro",
+      "text": "123a",
+      "ts": 1761597771641,
+      "timestamp": 1761597771641,
+      "file_bucket": null,
+      "file_object": null,
+      "file_name": null,
+      "file_mime": null,
+      "file_size": null,
+      "room": "geral"
+    },
+    {
+      "id": "adcbb32b-b2ef-449f-b14f-05a86fd63c80",
+      "author": "anon",
+      "text": "aaaaa",
+      "ts": 1761751665629,
+      "timestamp": 1761751665629,
+      "file_bucket": null,
+      "file_object": null,
+      "file_name": null,
+      "file_mime": null,
+      "file_size": null,
+      "room": "geral"
+    },
+    {
+      "id": "2b1ca599-fa1d-43a7-9d38-ddc9f28de761",
+      "author": "Verissimo",
+      "text": "aaaaaa",
+      "ts": 1761751677654,
+      "timestamp": 1761751677654,
+      "file_bucket": null,
+      "file_object": null,
+      "file_name": null,
+      "file_mime": null,
+      "file_size": null,
+      "room": "geral"
+    }
+  ]
+}
