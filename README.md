@@ -4,23 +4,41 @@ Aplicação de chat usando Node.js, AntidoteDB e sistema completo de monitoramen
 
 ## 🚀 Quick Start
 
-### Iniciar Tudo com Um Comando
+### Linux/macOS
+
+Iniciar tudo com um comando:
 
 ```bash
 ./start-all.sh
 ```
 
-Este comando irá:
-- ✅ Iniciar a aplicação de chat (Node.js + AntidoteDB)
-- ✅ Detectar automaticamente o IP da máquina
-- ✅ Configurar o monitoramento (Prometheus + Grafana + Node Exporter)
-- ✅ Iniciar todos os serviços
-
-### Parar Todos os Serviços
+Parar todos os serviços:
 
 ```bash
 ./stop-all.sh
 ```
+
+### Windows
+
+Iniciar tudo com PowerShell:
+
+```powershell
+.\start-all.ps1
+```
+
+Parar todos os serviços:
+
+```powershell
+.\stop-all.ps1
+```
+
+**💡 Para guia completo do Windows:** veja [WINDOWS-SETUP.md](WINDOWS-SETUP.md)
+
+Estes comandos irão:
+- ✅ Iniciar a aplicação de chat (Node.js + AntidoteDB)
+- ✅ Detectar automaticamente o IP da máquina
+- ✅ Configurar o monitoramento (Prometheus + Grafana + Node Exporter)
+- ✅ Iniciar todos os serviços
 
 ## 🌐 Acessar os Serviços
 
@@ -34,6 +52,11 @@ Este comando irá:
 
 - Docker 20.10+
 - Docker Compose 2.0+
+
+### 🪟 Usuários Windows
+
+Para instalação e configuração completa no Windows, consulte:
+**[WINDOWS-SETUP.md](WINDOWS-SETUP.md)** - Guia completo com scripts PowerShell
 
 ## 📁 Estrutura do Projeto
 

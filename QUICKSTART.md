@@ -1,15 +1,55 @@
 # 🎯 Guia Rápido - 3 Passos
 
-## Para Ubuntu/Linux
+## ⚡ Método Automatizado
 
-### 1️⃣ Tornar Scripts Executáveis
+### 🐧 Linux/macOS
+
 ```bash
-chmod +x start-all.sh stop-all.sh monitoring/scripts/set_cluster_env.sh
+# 1. Tornar scripts executáveis
+chmod +x start-all.sh stop-all.sh
+
+# 2. Iniciar tudo
+./start-all.sh
+
+# 3. Acessar
+# Chat: http://localhost:3000
+# Grafana: http://localhost:3001 (admin/admin)
+# Prometheus: http://localhost:9090
 ```
 
-### 2️⃣ Iniciar Tudo
+### 🪟 Windows (PowerShell)
+
+```powershell
+# 1. Abrir PowerShell na pasta do projeto
+
+# 2. Iniciar tudo
+.\start-all.ps1
+
+# 3. Acessar
+# Chat: http://localhost:3000
+# Grafana: http://localhost:3001 (admin/admin)
+# Prometheus: http://localhost:9090
+```
+
+**📘 Guia Completo Windows:** [WINDOWS-SETUP.md](WINDOWS-SETUP.md)
+
+---
+
+## 📋 Método Manual
+
+### 🐧 Para Linux/Ubuntu
+
+### 1️⃣ Iniciar Aplicação
 ```bash
-./start-all.sh
+docker compose up -d
+```
+
+### 2️⃣ Configurar Monitoramento
+```bash
+cd monitoring
+./scripts/set_cluster_env.sh
+docker compose up -d
+cd ..
 ```
 
 ### 3️⃣ Acessar
@@ -19,7 +59,7 @@ chmod +x start-all.sh stop-all.sh monitoring/scripts/set_cluster_env.sh
 
 ---
 
-## Para Windows (PowerShell)
+### 🪟 Para Windows (PowerShell)
 
 ### 1️⃣ Iniciar Aplicação
 ```powershell
@@ -29,7 +69,7 @@ docker compose up -d
 ### 2️⃣ Configurar Monitoramento
 ```powershell
 cd monitoring
-bash scripts/set_cluster_env.sh
+.\scripts\set_cluster_env.ps1
 docker compose up -d
 cd ..
 ```
@@ -43,14 +83,14 @@ cd ..
 
 ## 🛑 Parar Tudo
 
-**Linux:**
+**🐧 Linux/macOS:**
 ```bash
 ./stop-all.sh
 ```
 
-**Windows:**
+**🪟 Windows:**
 ```powershell
-cd monitoring; docker compose down; cd ..; docker compose down
+.\stop-all.ps1
 ```
 
 ---

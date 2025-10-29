@@ -38,6 +38,32 @@
       "file_mime": null,
       "file_size": null,
       "room": "geral"
+    },
+    {
+      "id": "ad29744e-e647-4e04-aa35-45143ecd7c6e",
+      "author": "Verissimo",
+      "text": "ola",
+      "ts": 1761762440634,
+      "timestamp": 1761762440634,
+      "file_bucket": null,
+      "file_object": null,
+      "file_name": null,
+      "file_mime": null,
+      "file_size": null,
+      "room": "geral"
+    },
+    {
+      "id": "e5db5f7b-b940-4022-b6b0-8e64a572df24",
+      "author": "Verissimo",
+      "text": "ta cheguando ai?",
+      "ts": 1761762447509,
+      "timestamp": 1761762447509,
+      "file_bucket": null,
+      "file_object": null,
+      "file_name": null,
+      "file_mime": null,
+      "file_size": null,
+      "room": "geral"
     }
   ]
 }
