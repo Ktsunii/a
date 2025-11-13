@@ -1,9 +1,0 @@
-[
-  {
-    "labels": {
-      "job": "node-exporter",
-      "instance": "10.82.9.34"
-    },
-    "targets": ["10.82.9.34:9100"]
-  }
-]
