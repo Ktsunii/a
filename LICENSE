@@ -1,0 +1,17 @@
+import subprocess
+import sys
+
+def main():
+    # Comando para executar o jogo "Insalubre Survivor"
+    # Substitua 'caminho/para/o/jogo.exe' pelo caminho real do executável do jogo
+    jogo_executavel = 'caminho/para/o/jogo.exe'
+
+    # Verifica se o script está sendo executado no Windows
+    if sys.platform == 'win32':
+        # Abre um novo terminal e executa o jogo
+        subprocess.Popen(['start', 'cmd', '/k', jogo_executavel], shell=True)
+    else:
+        print("Este script só é compatível com Windows.")
+
+if __name__ == "__main__":
+    main()
